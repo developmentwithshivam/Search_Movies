@@ -8,10 +8,10 @@ import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HashRouter>
       <Provider store={store}>
+    <HashRouter>
         <App />
-      </Provider>
     </HashRouter>
+      </Provider>
   </StrictMode>
 );
