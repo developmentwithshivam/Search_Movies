@@ -1,0 +1,14 @@
+const omdbservice = (value)=>{
+//   fetch(`http://www.omdbapi.com/?apikey=YOUR_API_KEY&s=${value}`).then((res)=>{
+ const data =  fetch(`http://www.omdbapi.com/?s=${value}&apikey=7b640ed5`).then((res)=>{
+   return res.json();
+   }).then((res)=>{
+    // console.log("data from omdb :",res);
+    
+    return res;
+   })
+
+   return data;
+}
+
+export default omdbservice;

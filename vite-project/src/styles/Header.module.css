@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    height: 30px;
+    gap: 100px;
+    width: screen;
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
